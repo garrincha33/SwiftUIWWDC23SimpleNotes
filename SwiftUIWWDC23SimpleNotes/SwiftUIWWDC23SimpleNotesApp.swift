@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct SwiftUIWWDC23SimpleNotesApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .modelContainer(for: [
+                    Note.self,
+                    Tag.self
+                ])
         }
     }
 }
