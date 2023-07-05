@@ -13,6 +13,7 @@ struct SwiftUIWWDC23SimpleNotesApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            NoteListView()
                 .modelContainer(for: [
                     Note.self,
                     Tag.self
