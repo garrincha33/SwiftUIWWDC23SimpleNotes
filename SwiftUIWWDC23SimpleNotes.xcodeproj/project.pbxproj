@@ -14,6 +14,7 @@
 		8268ED6B2A55642B00B74058 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8268ED6A2A55642B00B74058 /* Note.swift */; };
 		8268ED6D2A55649000B74058 /* tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8268ED6C2A55649000B74058 /* tag.swift */; };
 		8268ED702A5566CE00B74058 /* NoteListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8268ED6F2A5566CE00B74058 /* NoteListView.swift */; };
+		8268ED722A56B0C100B74058 /* TagListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8268ED712A56B0C100B74058 /* TagListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		8268ED6A2A55642B00B74058 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		8268ED6C2A55649000B74058 /* tag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tag.swift; sourceTree = "<group>"; };
 		8268ED6F2A5566CE00B74058 /* NoteListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListView.swift; sourceTree = "<group>"; };
+		8268ED712A56B0C100B74058 /* TagListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				8268ED6F2A5566CE00B74058 /* NoteListView.swift */,
+				8268ED712A56B0C100B74058 /* TagListView.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8268ED6D2A55649000B74058 /* tag.swift in Sources */,
+				8268ED722A56B0C100B74058 /* TagListView.swift in Sources */,
 				8268ED5E2A555B4900B74058 /* ContentView.swift in Sources */,
 				8268ED702A5566CE00B74058 /* NoteListView.swift in Sources */,
 				8268ED5C2A555B4900B74058 /* SwiftUIWWDC23SimpleNotesApp.swift in Sources */,
