@@ -54,6 +54,7 @@ struct NoteListView: View {
         let note = Note(id: UUID().uuidString, content: noteText, createdAt: .now, tags: [])
         context.insert(note)
         try?context.save()
+        noteText = ""
     }
 }
 

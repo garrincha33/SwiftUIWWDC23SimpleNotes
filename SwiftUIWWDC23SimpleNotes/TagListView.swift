@@ -51,6 +51,7 @@ struct TagListView: View {
         let tag = Tag(id: UUID().uuidString, name: tagText, notes: [])
         context.insert(tag)
         try? context.save()
+        tagText = ""
     }
 }
 
